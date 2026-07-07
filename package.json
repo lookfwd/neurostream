@@ -1,0 +1,12 @@
+{
+  "name": "neurostream",
+  "version": "0.1.0",
+  "description": "Real-time EEG denoising in the browser: MQTT-over-WebSockets in, ONNX denoiser on overlapped windows, cleaned stream out.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test/math.test.mjs && node test/core.test.mjs && node test/backends.test.mjs && node test/integration.test.mjs"
+  },
+  "keywords": ["eeg", "denoising", "onnx", "webgpu", "mqtt", "real-time", "bci"],
+  "license": "MIT"
+}
